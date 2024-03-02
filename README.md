@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://github.com/Bhagyeshredde/wt/blob/main/html/portfolio/styles.css">
-
 </head>
 <body>
     <header>
@@ -26,9 +25,7 @@
             </div>
         </nav>
     </header>
-
     <main>
-
         <section class="home">
             <section class ="firstSection">
                 <div class="leftSection">
@@ -45,7 +42,6 @@
                 </div>
             </section>
         </section>
-
         <hr>
         <Section class="secondSection">
             <div id="about"> 
@@ -55,7 +51,6 @@
                 <br>
                 <br>
             </div>
-
             <section>
                 <div>
                     <!--Description-->
@@ -70,8 +65,7 @@
                             <br>
                             <p class="icon-text2">Entry level</p>
                             <p class="icon-text2">Cybersecurity Anaylst</p>
-                    </div>
-                    
+                    </div>               
                     <div class="edu">
                             <img style="width: 80px; height: 80px;" src="education.jpg" alt="Education icon">
                             <p class="icon-text"><b>Education</b></p>
@@ -82,7 +76,6 @@
                 </div>
             </section>
         </section>
-
         <hr>
         <Section class="thirdSection">
             <div id="service"> <h1>Service</h1>
@@ -91,8 +84,7 @@
             <br>
             <br>
             <p class="description" >As an Engineer of Computer Science my knowledge and skills is good in the domain of computer science and I have learn algorithm, data structure, computer programming, computer architecture and organisation, discrete mathematics, data management system. Along with my specialisation in Cyber security and Digital Forensics lead me to have insight in the field of security. I bring expertise in securing digital landscapes. Additionally, my proficiency extends to web development, where I leverage skills in creating secure and dynamic online solutions.
-            </p>
-      
+            </p>      
             <div class="content">
                 <div class="card reveal active">
                   <div class="service-icon">
@@ -123,20 +115,17 @@
                 </div>
               </div>
         </Section>
-
         <hr>
         <Section class="forthSection">
             <div id="projects"> <h1>Projects</h1>
                 <span class="text-purple">What I have done</span>
             </div>
         </Section>
-
         <hr>
         <Section class="fifthSection">
             <div id="contact"> <h1>Contact Me</h1>
                 <span class="text-purple">Get in touch</span>
-            </div><br><br>
-            
+            </div><br><br>         
             <form action="">
                 <fieldset>
                     <div>
@@ -155,8 +144,7 @@
                             <label for="number">Phone Number:</label>
                         <input type="text" id="number" placeholder="Enter Your Number" required>
                         </div>
-                    </div>
-                    
+                    </div>                  
                     <div class="form-right">
                         <div class="formhead">
                             <label for="password">Your Email:</label>
@@ -166,8 +154,7 @@
                             <label for="password">Company Name:</label>
                             <input type="text" id="password" placeholder="Enter Your Company Name" required>
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
                 <div>
                     <br>
@@ -177,7 +164,6 @@
                 <hr class="hr2"><br>
                 <div>
                 <p class="cmt"><b>Comment</b></p>
-
                 <div>
                     <textarea name="comment" id="cmt"></textarea>
                 </div><br>
@@ -185,16 +171,12 @@
             </form>
         </Section>
         <br>
-
         <section class="sixthSection">
-            <div >
-                
+            <div >             
             </div>
         </section>
-    </main>
-    
+    </main>   
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
         <!-- Setup and start animation! -->
     <script>
     var typed = new Typed('#element', {
